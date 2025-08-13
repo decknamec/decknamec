@@ -73,12 +73,10 @@ Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Ge
 
 ---
 
-## 📈 Badges & Stats (Optional)
+## 📈 Badges & Stats
 
-[![Profile Views](https://komarev.com/ghpvc/?username=decknamec&style=flat)](https://github.com/decknamec)
-[![GitHub Streak](https://streak-stats.demolab.com?user=decknamec)](https://git.io/streak-stats)
-
----
+[![Profile Views](https://komarev.com/ghpvc/?username=decknamec&style=flat-square&color=blue)](https://github.com/decknamec)
+[![GitHub Streak](https://streak-stats.demolab.com?user=decknamec&theme=default&hide_border=true&date_format=%5BY.%5Dn.j&fire=FF9900&ring=61DAFB&currStreakLabel=61DAFB)](https://git.io/streak-stats)
 
 ## 📫 Kontakt
 
