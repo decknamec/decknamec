@@ -69,7 +69,6 @@ Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Ge
 - **Clean Code** & **Developer Experience** im Fokus
 - **Framework-affin:** schnell produktiv in React/Next/Vue
 - **Cloud-ready:** Hosting, Auth, APIs mit **AWS (Amplify, Lambda, AppSync)**
-- **Test-mindset:** E2E mit **Cypress**
 - **Teamflow:** Agile Methoden, Jira-Boards, Priorisierung
 
 ---
@@ -86,12 +85,6 @@ Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Ge
 - LinkedIn: **https://de.linkedin.com/in/moritz-diesing-7a683a325**
 - GitHub: **https://github.com/decknamec**
 
-> Immer offen für spannende Projekte, Kollaboration und Tech-Talk! :)
+> Immer offen für spannende Projekte
 
 ---
-
-## 🌱 Aktuell lerne ich
-
-- Next.js App Router Best Practices
-- Performance Tuning (RSC, Suspense, Code Splitting)
-- AWS Amplify & AppSync Patterns
