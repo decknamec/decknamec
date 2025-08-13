@@ -10,14 +10,14 @@ Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbe
 
 <!-- Frontend -->
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=000&labelColor=fff)
-![TypeScript](https://img.shields.io/badge/TypeScript-4%2B-3178C6?logo=typescript&logoColor=fff&labelColor=fff)
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=000&labelColor=fff)
-![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=fff&labelColor=fff)
-![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vuedotjs&logoColor=fff&labelColor=fff)
-![Zustand](https://img.shields.io/badge/Zustand-State%20Mgmt-000?logo=react&logoColor=61DAFB&labelColor=fff)
-![Chakra UI](https://img.shields.io/badge/Chakra%20UI-Design%20System-319795?logo=chakraui&logoColor=fff&labelColor=fff)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Utility--First-06B6D4?logo=tailwindcss&logoColor=fff&labelColor=fff)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-4%2B-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-State%20Mgmt-000000?style=flat-square&logo=react&logoColor=61DAFB)
+![Chakra UI](https://img.shields.io/badge/Chakra%20UI-Design%20System-319795?style=flat-square&logo=chakraui&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Utility--First-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 <!-- Backend & Cloud -->
 
