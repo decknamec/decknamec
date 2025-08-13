@@ -21,21 +21,21 @@ Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbe
 
 <!-- Backend & Cloud -->
 
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=nodedotjs&logoColor=fff&labelColor=fff)
-![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=ff9a00&labelColor=fff)
-![Amplify](https://img.shields.io/badge/AWS%20Amplify-Hosting/Auth-FF9900?logo=awsamplify&logoColor=000&labelColor=fff)
-![Lambda](https://img.shields.io/badge/AWS%20Lambda-Serverless-FF9900?logo=awslambda&logoColor=000&labelColor=fff)
-![AppSync](https://img.shields.io/badge/AWS%20AppSync-GraphQL-FF9900?logo=awsappsync&logoColor=000&labelColor=fff)
-![Cognito](https://img.shields.io/badge/AWS%20Cognito-Auth-6A3E91?logo=amazoncognito&logoColor=fff&labelColor=fff)
-![S3](https://img.shields.io/badge/Amazon%20S3-Storage-569A31?logo=amazons3&logoColor=fff&labelColor=fff)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![AWS Amplify](https://img.shields.io/badge/AWS%20Amplify-Hosting%2FAuth-FF9900?style=flat-square&logo=awsamplify&logoColor=000000)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-Serverless-FF9900?style=flat-square&logo=awslambda&logoColor=000000)
+![AWS AppSync](https://img.shields.io/badge/AWS%20AppSync-GraphQL-FF9900?style=flat-square&logo=awsappsync&logoColor=000000)
+![AWS Cognito](https://img.shields.io/badge/AWS%20Cognito-Auth-6A3E91?style=flat-square&logo=amazoncognito&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-Storage-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 <!-- Testing & Workflow -->
 
-![Cypress](https://img.shields.io/badge/Cypress-E2E-17202C?logo=cypress&logoColor=fff&labelColor=fff)
-![Jest](https://img.shields.io/badge/Jest-Tests-C21325?logo=jest&logoColor=fff&labelColor=fff)
-![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=fff&labelColor=fff)
-![Jira](https://img.shields.io/badge/Jira-Boards-0052CC?logo=jira&logoColor=fff&labelColor=fff)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Basics-000000?logo=githubactions&logoColor=fff&labelColor=fff)
+![Cypress](https://img.shields.io/badge/Cypress-E2E-17202C?style=flat-square&logo=cypress&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-Tests-C21325?style=flat-square&logo=jest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Versioning-F05032?style=flat-square&logo=git&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-Boards-0052CC?style=flat-square&logo=jira&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Basics-000000?style=flat-square&logo=githubactions&logoColor=white)
 
 > Sprachen: Deutsch 🇩🇪 · Englisch 🇬🇧 · Norwegisch 🇳🇴
 
