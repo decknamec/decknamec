@@ -2,16 +2,40 @@
 
 Junior Developer @ [fpi-evit](https://fpi-evit.de) · 23 · 🇩🇪/🇬🇧/🇳🇴
 
-Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbeite ich mit **JavaScript**–Ökosystemen wie **React**, **Next.js** und **Vue** – und ich scheue mich nicht vor Infrastruktur mit **AWS (Amplify)**.
+Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbeite ich mit modernen **JavaScript/TypeScript**-Stacks – React, Next.js und Vue – und setze Infrastruktur mit **AWS** (u.a. Amplify, Lambda) um.
 
 ---
 
 ## 🔧 Tech-Stack
 
-**Frontend:** React • Next.js • Vue • Chakra UI • Tailwind CSS  
-**Backend & Cloud:** Node.js • AWS (Amplify, Cognito, AppSync, S3)  
-**Testing:** Cypress • Jest (Basics)  
-**Tools & Workflow:** Git • Jira • Agile (Scrum/Kanban) • CI/CD (Basics)
+<!-- Frontend -->
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=000&labelColor=fff)
+![TypeScript](https://img.shields.io/badge/TypeScript-4%2B-3178C6?logo=typescript&logoColor=fff&labelColor=fff)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=000&labelColor=fff)
+![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=fff&labelColor=fff)
+![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vuedotjs&logoColor=fff&labelColor=fff)
+![Zustand](https://img.shields.io/badge/Zustand-State%20Mgmt-000?logo=react&logoColor=61DAFB&labelColor=fff)
+![Chakra UI](https://img.shields.io/badge/Chakra%20UI-Design%20System-319795?logo=chakraui&logoColor=fff&labelColor=fff)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Utility--First-06B6D4?logo=tailwindcss&logoColor=fff&labelColor=fff)
+
+<!-- Backend & Cloud -->
+
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=nodedotjs&logoColor=fff&labelColor=fff)
+![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=ff9a00&labelColor=fff)
+![Amplify](https://img.shields.io/badge/AWS%20Amplify-Hosting/Auth-FF9900?logo=awsamplify&logoColor=000&labelColor=fff)
+![Lambda](https://img.shields.io/badge/AWS%20Lambda-Serverless-FF9900?logo=awslambda&logoColor=000&labelColor=fff)
+![AppSync](https://img.shields.io/badge/AWS%20AppSync-GraphQL-FF9900?logo=awsappsync&logoColor=000&labelColor=fff)
+![Cognito](https://img.shields.io/badge/AWS%20Cognito-Auth-6A3E91?logo=amazoncognito&logoColor=fff&labelColor=fff)
+![S3](https://img.shields.io/badge/Amazon%20S3-Storage-569A31?logo=amazons3&logoColor=fff&labelColor=fff)
+
+<!-- Testing & Workflow -->
+
+![Cypress](https://img.shields.io/badge/Cypress-E2E-17202C?logo=cypress&logoColor=fff&labelColor=fff)
+![Jest](https://img.shields.io/badge/Jest-Tests-C21325?logo=jest&logoColor=fff&labelColor=fff)
+![Git](https://img.shields.io/badge/Git-Versioning-F05032?logo=git&logoColor=fff&labelColor=fff)
+![Jira](https://img.shields.io/badge/Jira-Boards-0052CC?logo=jira&logoColor=fff&labelColor=fff)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Basics-000000?logo=githubactions&logoColor=fff&labelColor=fff)
 
 > Sprachen: Deutsch 🇩🇪 · Englisch 🇬🇧 · Norwegisch 🇳🇴
 
@@ -22,14 +46,17 @@ Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbe
 ### 🎬 [cinetracker.de](https://cinetracker.de)
 
 Fullstack Social App zum Filme tracken & mit Freunden connecten.  
-**Stack:** React • Chakra UI • (eigene Backend-Services)  
+**Stack:** React · Chakra UI · (eigene Backend-Services)  
 **Features:** Watchlists, Social Feed, Bewertungen/Kommentare, Profilseiten
 
-> Weitere Side-Projects und Experimente folgen – ich teste gerne neue Frameworks und Libraries.
+### 🛰️ Geodaten-Proxy (AWS Lambda)
+
+Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Geodaten validiert und normalisiert**.  
+**Schwerpunkte:** Request-Proxying, Datenvalidierung, Normalisierung, Serverless Patterns (Lambda + ggf. API Gateway), Logging/Monitoring.
 
 ---
 
-## 💼 aktuell
+## 💼 Aktuell
 
 - **Rolle:** Junior Developer bei fpi-evit
 - **Aufgaben:** Features umsetzen, Code Reviews, Tests mit Cypress, Tickets in Jira, Zusammenarbeit im agilen Team
@@ -39,28 +66,25 @@ Fullstack Social App zum Filme tracken & mit Freunden connecten.
 
 ## 🧠 Was mich ausmacht
 
-- Fokus auf **Clean Code** & **Developer Experience**
+- **Clean Code** & **Developer Experience** im Fokus
 - **Framework-affin:** schnell produktiv in React/Next/Vue
-- **Cloud-ready:** Hosting, Auth, APIs mit **AWS Amplify**
-- **Test-minded:** E2E mit **Cypress**
+- **Cloud-ready:** Hosting, Auth, APIs mit **AWS (Amplify, Lambda, AppSync)**
+- **Test-mindset:** E2E mit **Cypress**
 - **Teamflow:** Agile Methoden, Jira-Boards, Priorisierung
 
 ---
 
-## 📈 (Optional) Badges & Stats
+## 📈 Badges & Stats (Optional)
 
-> Du kannst diese Badges aktivieren, wenn du magst. Links ggf. anpassen.
-
-[![Profile Views](https://komarev.com/ghpvc/?username=DEIN-GITHUB-USERNAME&style=flat)](https://github.com/DEIN-GITHUB-USERNAME)
-[![GitHub Streak](https://streak-stats.demolab.com?user=DEIN-GITHUB-USERNAME)](https://git.io/streak-stats)
+[![Profile Views](https://komarev.com/ghpvc/?username=decknamec&style=flat)](https://github.com/decknamec)
+[![GitHub Streak](https://streak-stats.demolab.com?user=decknamec)](https://git.io/streak-stats)
 
 ---
 
 ## 📫 Kontakt
 
-- Mail: **dein.name@domain.tld**
-- LinkedIn: **https://www.linkedin.com/in/DEIN-HANDLE**
-- GitHub: **https://github.com/DEIN-GITHUB-USERNAME**
+- LinkedIn: **https://de.linkedin.com/in/moritz-diesing-7a683a325**
+- GitHub: **https://github.com/decknamec**
 
 > Immer offen für spannende Projekte, Kollaboration und Tech-Talk! :)
 
@@ -71,11 +95,3 @@ Fullstack Social App zum Filme tracken & mit Freunden connecten.
 - Next.js App Router Best Practices
 - Performance Tuning (RSC, Suspense, Code Splitting)
 - AWS Amplify & AppSync Patterns
-
----
-
-## ✅ Fun Facts
-
-- Ich teste gerne neue UI-Frameworks (Chakra, Tailwind, …)
-- Ich schreibe Commits in klaren, kleinen Schritten
-- Ich liebe Film- und Serien-APIs – daher **cinetracker** 😉
