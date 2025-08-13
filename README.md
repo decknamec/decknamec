@@ -73,11 +73,6 @@ Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Ge
 
 ---
 
-## 📈 Badges & Stats
-
-[![Profile Views](https://komarev.com/ghpvc/?username=decknamec&style=flat-square&color=blue)](https://github.com/decknamec)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=decknamec)](https://git.io/streak-stats)
-
 ## 📫 Kontakt
 
 - LinkedIn: **https://de.linkedin.com/in/moritz-diesing-7a683a325**
