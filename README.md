@@ -6,6 +6,8 @@ Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbe
 
 ---
 
+Meinen Lebenlauf findet ihr unter: https://docs.google.com/document/d/1tYqKlKyxw6y2xtmA8UnaXrwcaqeDloxl7TDfCZguS2M/edit?tab=t.0
+
 ## 🔧 Tech-Stack
 
 <!-- Frontend -->
