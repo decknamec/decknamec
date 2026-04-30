@@ -79,7 +79,7 @@ Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Ge
 
 - LinkedIn: **https://de.linkedin.com/in/moritz-diesing-7a683a325**
 - GitHub: **https://github.com/decknamec**
-
+- XING: **https://www.xing.com/profile/Moritz_Diesing084189/web_profiles?nwt_nav=profile_icon**
 > Immer offen für spannende Projekte
 
 ---
