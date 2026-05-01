@@ -1,6 +1,6 @@
 # Hey, ich bin Moritz 👋
 
-Junior Developer @ [fpi-evit](https://fpi-evit.de) · 23 · 🇩🇪/🇬🇧/🇳🇴
+Junior Developer @ [fpi-evit](https://fpi-evit.de) · 24 · 🇩🇪/🇬🇧/🇳🇴
 
 Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbeite ich mit modernen **JavaScript/TypeScript**-Stacks – React, Next.js und Vue – und setze Infrastruktur mit **AWS** (u.a. Amplify, Lambda) um.
 
@@ -43,35 +43,8 @@ Meinen Lebenlauf findet ihr unter: https://docs.google.com/document/d/1tYqKlKyxw
 
 ---
 
-## 🚀 Projekte (Auswahl)
-
-### 🎬 [cinetracker.de](https://cinetracker.de)
-
-Fullstack Social App zum Filme tracken & mit Freunden connecten.  
-**Stack:** React · Chakra UI · (eigene Backend-Services)  
-**Features:** Watchlists, Social Feed, Bewertungen/Kommentare, Profilseiten
-
-### 🛰️ Geodaten-Proxy (AWS Lambda)
-
-Facharbeit/Projekt über einen Proxy, implementiert als **AWS Lambda**, der **Geodaten validiert und normalisiert**.  
-**Schwerpunkte:** Request-Proxying, Datenvalidierung, Normalisierung, Serverless Patterns (Lambda + ggf. API Gateway), Logging/Monitoring.
-
----
-
-## 💼 Aktuell
-
-- **Rolle:** Junior Developer bei fpi-evit
-- **Aufgaben:** Features umsetzen, Code Reviews, Tests mit Cypress, Tickets in Jira, Zusammenarbeit im agilen Team
-- **Interessen:** Frontend-Architektur, Design-Systeme, DX, Serverless mit AWS
-
----
-
-## 🧠 Was mich ausmacht
-
-- **Clean Code** & **Developer Experience** im Fokus
-- **Framework-affin:** schnell produktiv in React/Next/Vue
-- **Cloud-ready:** Hosting, Auth, APIs mit **AWS (Amplify, Lambda, AppSync)**
-- **Teamflow:** Agile Methoden, Jira-Boards, Priorisierung
+## More About me
+To learn more about me just visit my Website: moritzdiesing.de
 
 ---
 
