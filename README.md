@@ -6,8 +6,6 @@ Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbe
 
 ---
 
-Meinen Lebenlauf findet ihr unter: https://docs.google.com/document/d/1tYqKlKyxw6y2xtmA8UnaXrwcaqeDloxl7TDfCZguS2M/edit?tab=t.0
-
 ## 🔧 Tech-Stack
 
 <!-- Frontend -->
@@ -44,7 +42,8 @@ Meinen Lebenlauf findet ihr unter: https://docs.google.com/document/d/1tYqKlKyxw
 ---
 
 ## More About me
-To learn more about me just visit my Website: moritzdiesing.de
+To learn more about me just visit my Website: https://www.moritzdiesing.de
+
 
 ---
 
