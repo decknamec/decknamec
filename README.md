@@ -4,6 +4,8 @@ Junior Developer @ [fpi-evit](https://fpi-evit.de) · 24 · 🇩🇪/🇬🇧/�
 
 Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbeite ich mit modernen **JavaScript/TypeScript**-Stacks – React, Next.js und Vue – und setze Infrastruktur mit **AWS** (u.a. Amplify, Lambda) um.
 
+Meine Website findet ihr unter https://moritzdiesing.de
+
 ---
 
 ## 🔧 Tech-Stack
