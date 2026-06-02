@@ -1,6 +1,6 @@
 # Hey, ich bin Moritz 👋
 
-Junior Developer @ [Relationflow](https://relationflow.io) · 24 · 🇩🇪/🇬🇧/🇳🇴
+Software Developer @ [Relationflow](https://relationflow.io) · 24 · 🇩🇪/🇬🇧/🇳🇴
 
 Ich baue Webapps mit Fokus auf DX, Performance und klare UI/UX. Am liebsten arbeite ich mit modernen **JavaScript/TypeScript**-Stacks – React, Next.js und Vue – und setze Infrastruktur mit **AWS** (u.a. Amplify, Lambda) um.
 
