@@ -5,39 +5,36 @@
   text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
 
   .gs1{stop-color:var(--bg1)}.gs2{stop-color:var(--bg2)}
-  .glowStop{stop-color:var(--glow)}
   .panel{fill:url(#bg);stroke:var(--stroke);stroke-width:1}
   .frost{fill:var(--frost)}.aurora{opacity:var(--auroraO)}
   .b1,.b2,.b3,.b4{transform-box:fill-box;transform-origin:center}
-  .b1{animation:d1 24s ease-in-out infinite}.b2{animation:d2 31s ease-in-out infinite}
-  .b3{animation:d3 19s ease-in-out infinite}.b4{animation:d2 27s ease-in-out infinite reverse}
+  .b1{animation:d1 26s ease-in-out infinite}.b2{animation:d2 33s ease-in-out infinite}
+  .b3{animation:d3 21s ease-in-out infinite}.b4{animation:d2 29s ease-in-out infinite reverse}
   .name{font-size:46px;font-weight:800;letter-spacing:-.6px}
   .sub{font-size:18px;font-weight:500}.acc{fill:var(--accent);font-weight:700}
   .tag{font-size:13.5px;font-weight:500;fill:var(--mut)}
   .plab{font-size:12px;font-weight:700;fill:var(--accent);letter-spacing:.4px}
-  .sweep{animation:sweep 8.5s cubic-bezier(.4,0,.15,1) infinite}
-  .wave{transform-box:fill-box;transform-origin:62% 78%;animation:wave 2.6s ease-in-out infinite}
-  @keyframes wave{0%,60%,100%{transform:rotate(0)}68%{transform:rotate(16deg)}76%{transform:rotate(-8deg)}84%{transform:rotate(14deg)}92%{transform:rotate(-4deg)}}
+  .wave{transform-box:fill-box;transform-origin:62% 80%;animation:wave 2.8s ease-in-out infinite}
+  .glint{opacity:0;animation:glint 10s ease-in-out infinite}
+  @keyframes wave{0%,58%,100%{transform:rotate(0)}66%{transform:rotate(15deg)}74%{transform:rotate(-7deg)}82%{transform:rotate(13deg)}90%{transform:rotate(-3deg)}}
+  @keyframes glint{0%{transform:translateX(-540px);opacity:0}14%{opacity:.85}46%{transform:translateX(880px);opacity:.85}56%{opacity:0}100%{transform:translateX(880px);opacity:0}}
   @keyframes d1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(70px,-20px) scale(1.18)}}
   @keyframes d2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-60px,18px) scale(1.12)}}
   @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(48px,14px)}}
-  @keyframes sweep{0%{transform:translateX(-380px);opacity:0}10%{opacity:1}42%{transform:translateX(880px);opacity:1}50%{opacity:0}100%{transform:translateX(880px);opacity:0}}
-  @media (prefers-reduced-motion:reduce){.sweep,.b1,.b2,.b3,.b4,.wave,.dot{animation:none}.sweep{opacity:0}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0.7" y2="1"><stop class="gs1" offset="0"/><stop class="gs2" offset="0.55"/><stop class="gs1" offset="1"/></linearGradient>
-    <linearGradient id="bandG"><stop offset="0" stop-color="#000"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
-    <linearGradient id="glowG"><stop class="glowStop" offset="0" stop-opacity="0"/><stop class="glowStop" offset=".5" stop-opacity=".7"/><stop class="glowStop" offset="1" stop-opacity="0"/></linearGradient>
     <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glintG"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
     
     <radialGradient id="aG"><stop offset="0" stop-color="#3FCF8E" stop-opacity=".9"/><stop offset="1" stop-color="#3FCF8E" stop-opacity="0"/></radialGradient>
     <radialGradient id="aB"><stop offset="0" stop-color="#3178C6" stop-opacity=".9"/><stop offset="1" stop-color="#3178C6" stop-opacity="0"/></radialGradient>
     <radialGradient id="aV"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".9"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
     <radialGradient id="aC"><stop offset="0" stop-color="#D97757" stop-opacity=".85"/><stop offset="1" stop-color="#D97757" stop-opacity="0"/></radialGradient>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="30"/></filter>
-    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="clip"><rect x="0" y="0" width="880" height="200" rx="24"/></clipPath>
-    <mask id="shine" maskUnits="userSpaceOnUse" x="0" y="0" width="880" height="200"><rect class="sweep" x="0" y="0" width="320" height="200" fill="url(#bandG)"/></mask>
+    <mask id="glintM" maskUnits="userSpaceOnUse" x="0" y="0" width="880" height="200"><rect class="glint" x="0" y="0" width="300" height="200" fill="url(#glintG)"/></mask>
   </defs>
   <rect class="panel" x="0.5" y="0.5" width="879" height="199" rx="24"/>
   <g clip-path="url(#clip)"><g class="aurora" filter="url(#soft)">
@@ -50,8 +47,8 @@
   <rect x="0.5" y="0.5" width="879" height="199" rx="24" fill="url(#gloss)" clip-path="url(#clip)"/>
 
   <text class="name" x="56" y="92" fill="var(--ink)">Hey, ich bin Moritz</text>
+  <g clip-path="url(#clip)" mask="url(#glintM)"><text class="name" x="56" y="92" fill="var(--glow)">Hey, ich bin Moritz</text></g>
   <text class="wave" x="506" y="92" style="font-size:42px">👋</text>
-  <g clip-path="url(#clip)" mask="url(#shine)"><text class="name" x="56" y="92" fill="var(--accent)" filter="url(#glow)">Hey, ich bin Moritz</text></g>
 
   <text class="sub" x="58" y="128" fill="var(--mut)">Software Developer @ <tspan class="acc">Relationflow</tspan><tspan fill="var(--mut)">  ·  24  ·  baut Web · Mobile · Desktop</tspan></text>
 
@@ -61,6 +58,4 @@
     <rect x="158" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="180" y="167" text-anchor="middle">NO</text>
     <text class="tag" x="218" y="167">offen für spannende Projekte</text>
   </g>
-
-  <g clip-path="url(#clip)"><rect class="sweep" x="0" y="0" width="320" height="200" fill="url(#glowG)"/></g>
 </svg>
