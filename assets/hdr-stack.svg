@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="52" viewBox="0 0 230 52" role="img" aria-label="Tech-Stack">
   <title>Tech-Stack</title>
   <style>
-  svg{--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.55;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)}@media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.85;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)}}
+  svg{--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.46;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)}@media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.70;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)}}
   text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
 
   .ttl{font-size:27px;font-weight:800;letter-spacing:-.4px;fill:var(--ink)}

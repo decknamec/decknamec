@@ -11,14 +11,14 @@ const pathFor = (s) => {
   if (!m) throw new Error('no path ' + s); return m[1];
 };
 
-const L = `--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.55;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)`;
-const D = `--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.85;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)`;
+const L = `--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.46;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)`;
+const D = `--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.70;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)`;
 const vars = () => `svg{${L}}@media (prefers-color-scheme:dark){svg{${D}}}`;
 
 const auroraDefs = `
     <radialGradient id="aG"><stop offset="0" stop-color="#3FCF8E" stop-opacity=".9"/><stop offset="1" stop-color="#3FCF8E" stop-opacity="0"/></radialGradient>
     <radialGradient id="aB"><stop offset="0" stop-color="#3178C6" stop-opacity=".9"/><stop offset="1" stop-color="#3178C6" stop-opacity="0"/></radialGradient>
-    <radialGradient id="aV"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".9"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="aV"><stop offset="0" stop-color="#4F66E0" stop-opacity=".9"/><stop offset="1" stop-color="#4F66E0" stop-opacity="0"/></radialGradient>
     <radialGradient id="aC"><stop offset="0" stop-color="#D97757" stop-opacity=".85"/><stop offset="1" stop-color="#D97757" stop-opacity="0"/></radialGradient>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="30"/></filter>`;
 
@@ -50,7 +50,7 @@ function hero() {
   .wave{transform-box:fill-box;transform-origin:62% 80%;animation:wave 2.8s ease-in-out infinite}
   .glint{opacity:0;animation:glint 10s ease-in-out infinite}
   @keyframes wave{0%,58%,100%{transform:rotate(0)}66%{transform:rotate(15deg)}74%{transform:rotate(-7deg)}82%{transform:rotate(13deg)}90%{transform:rotate(-3deg)}}
-  @keyframes glint{0%{transform:translateX(-540px);opacity:0}14%{opacity:.85}46%{transform:translateX(${W}px);opacity:.85}56%{opacity:0}100%{transform:translateX(${W}px);opacity:0}}
+  @keyframes glint{0%{transform:translateX(-540px);opacity:0}14%{opacity:.62}46%{transform:translateX(${W}px);opacity:.62}56%{opacity:0}100%{transform:translateX(${W}px);opacity:0}}
   @keyframes d1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(70px,-20px) scale(1.18)}}
   @keyframes d2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-60px,18px) scale(1.12)}}
   @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(48px,14px)}}`;

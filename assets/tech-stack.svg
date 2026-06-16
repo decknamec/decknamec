@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="116" viewBox="0 0 880 116" role="img" aria-label="Tech-Stack: TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query, React Native / Expo, Tauri, Rust, Supabase, PostgreSQL, Node.js, Stripe, AWS, Claude (Anthropic), Ollama, Deepgram, Vitest, Playwright, Git, GitHub Actions, Jira">
   <title>Tech-Stack: TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query, React Native / Expo, Tauri, Rust, Supabase, PostgreSQL, Node.js, Stripe, AWS, Claude (Anthropic), Ollama, Deepgram, Vitest, Playwright, Git, GitHub Actions, Jira</title>
   <style>
-  svg{--bg1:#eef1f7;--bg2:#dfe5ef;--ic:#222831;--accent:#2f64f0;--stroke:rgba(20,26,48,.10);--frost:rgba(255,255,255,.60);--sweepGlow:#3f74ff;--auroraO:.50}
-  @media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ic:#ffffff;--accent:#5ce1ff;--stroke:rgba(255,255,255,.10);--frost:rgba(8,11,22,.42);--sweepGlow:#7fe9ff;--auroraO:.85}}
+  svg{--bg1:#eef1f7;--bg2:#dfe5ef;--ic:#222831;--accent:#2f64f0;--stroke:rgba(20,26,48,.10);--frost:rgba(255,255,255,.60);--sweepGlow:#3f74ff;--auroraO:.42}
+  @media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ic:#ffffff;--accent:#5ce1ff;--stroke:rgba(255,255,255,.10);--frost:rgba(8,11,22,.42);--sweepGlow:#7fe9ff;--auroraO:.70}}
   .gs1{stop-color:var(--bg1)} .gs2{stop-color:var(--bg2)}
   .glowStop{stop-color:var(--sweepGlow)}
   .panel{fill:url(#bgGrad);stroke:var(--stroke);stroke-width:1}
@@ -24,10 +24,10 @@
     <linearGradient id="bgGrad" x1="0" y1="0" x2="0.7" y2="1"><stop class="gs1" offset="0"/><stop class="gs2" offset="0.55"/><stop class="gs1" offset="1"/></linearGradient>
     <radialGradient id="aGreen"><stop offset="0" stop-color="#3FCF8E" stop-opacity=".9"/><stop offset="1" stop-color="#3FCF8E" stop-opacity="0"/></radialGradient>
     <radialGradient id="aBlue"><stop offset="0" stop-color="#3178C6" stop-opacity=".9"/><stop offset="1" stop-color="#3178C6" stop-opacity="0"/></radialGradient>
-    <radialGradient id="aViolet"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".9"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="aViolet"><stop offset="0" stop-color="#4F66E0" stop-opacity=".9"/><stop offset="1" stop-color="#4F66E0" stop-opacity="0"/></radialGradient>
     <radialGradient id="aCoral"><stop offset="0" stop-color="#D97757" stop-opacity=".85"/><stop offset="1" stop-color="#D97757" stop-opacity="0"/></radialGradient>
     <linearGradient id="bandG"><stop offset="0" stop-color="#000"/><stop offset="0.5" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
-    <linearGradient id="glowG"><stop class="glowStop" offset="0" stop-opacity="0"/><stop class="glowStop" offset="0.5" stop-opacity=".8"/><stop class="glowStop" offset="1" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glowG"><stop class="glowStop" offset="0" stop-opacity="0"/><stop class="glowStop" offset="0.5" stop-opacity=".62"/><stop class="glowStop" offset="1" stop-opacity="0"/></linearGradient>
     <linearGradient id="fadeG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="880" y2="0"><stop offset="0" stop-color="#000"/><stop offset="0.070" stop-color="#fff"/><stop offset="0.930" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
     <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="0.5" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="26"/></filter>

@@ -34,8 +34,8 @@ const strip = ICONS.map(([slug, label], i) => {
 }).join('\n');
 const altList = ICONS.map(([, l]) => l).join(', ');
 
-const LIGHT = `--bg1:#eef1f7;--bg2:#dfe5ef;--ic:#222831;--accent:#2f64f0;--stroke:rgba(20,26,48,.10);--frost:rgba(255,255,255,.60);--sweepGlow:#3f74ff;--auroraO:.50`;
-const DARK = `--bg1:#080b16;--bg2:#10162c;--ic:#ffffff;--accent:#5ce1ff;--stroke:rgba(255,255,255,.10);--frost:rgba(8,11,22,.42);--sweepGlow:#7fe9ff;--auroraO:.85`;
+const LIGHT = `--bg1:#eef1f7;--bg2:#dfe5ef;--ic:#222831;--accent:#2f64f0;--stroke:rgba(20,26,48,.10);--frost:rgba(255,255,255,.60);--sweepGlow:#3f74ff;--auroraO:.42`;
+const DARK = `--bg1:#080b16;--bg2:#10162c;--ic:#ffffff;--accent:#5ce1ff;--stroke:rgba(255,255,255,.10);--frost:rgba(8,11,22,.42);--sweepGlow:#7fe9ff;--auroraO:.70`;
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Tech-Stack: ${altList}">
   <title>Tech-Stack: ${altList}</title>
@@ -63,10 +63,10 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.
     <linearGradient id="bgGrad" x1="0" y1="0" x2="0.7" y2="1"><stop class="gs1" offset="0"/><stop class="gs2" offset="0.55"/><stop class="gs1" offset="1"/></linearGradient>
     <radialGradient id="aGreen"><stop offset="0" stop-color="#3FCF8E" stop-opacity=".9"/><stop offset="1" stop-color="#3FCF8E" stop-opacity="0"/></radialGradient>
     <radialGradient id="aBlue"><stop offset="0" stop-color="#3178C6" stop-opacity=".9"/><stop offset="1" stop-color="#3178C6" stop-opacity="0"/></radialGradient>
-    <radialGradient id="aViolet"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".9"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="aViolet"><stop offset="0" stop-color="#4F66E0" stop-opacity=".9"/><stop offset="1" stop-color="#4F66E0" stop-opacity="0"/></radialGradient>
     <radialGradient id="aCoral"><stop offset="0" stop-color="#D97757" stop-opacity=".85"/><stop offset="1" stop-color="#D97757" stop-opacity="0"/></radialGradient>
     <linearGradient id="bandG"><stop offset="0" stop-color="#000"/><stop offset="0.5" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
-    <linearGradient id="glowG"><stop class="glowStop" offset="0" stop-opacity="0"/><stop class="glowStop" offset="0.5" stop-opacity=".8"/><stop class="glowStop" offset="1" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glowG"><stop class="glowStop" offset="0" stop-opacity="0"/><stop class="glowStop" offset="0.5" stop-opacity=".62"/><stop class="glowStop" offset="1" stop-opacity="0"/></linearGradient>
     <linearGradient id="fadeG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="${W}" y2="0"><stop offset="0" stop-color="#000"/><stop offset="${FADE}" stop-color="#fff"/><stop offset="${FADE2}" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
     <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="0.5" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="26"/></filter>
