@@ -11,7 +11,7 @@ Meine Website findet ihr unter https://moritzdiesing.de
 ## 🔧 Tech-Stack
 
 <p align="center">
-  <img src="assets/tech-stack.svg" width="880" alt="Tech-Stack: TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query, React Native / Expo, Tauri, Rust, Supabase, PostgreSQL, Node.js, Stripe, AWS, Claude (Anthropic), Ollama, Deepgram, Vitest, Playwright, Git, GitHub Actions, Jira">
+  <img src="assets/tech-stack.svg?v=2" width="880" alt="Tech-Stack: TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query, React Native / Expo, Tauri, Rust, Supabase, PostgreSQL, Node.js, Stripe, AWS, Claude (Anthropic), Ollama, Deepgram, Vitest, Playwright, Git, GitHub Actions, Jira">
 </p>
 
 <details>
