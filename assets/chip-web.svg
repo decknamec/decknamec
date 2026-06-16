@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="54" viewBox="0 0 200 54" role="img" aria-label="Website">
+  <title>Website</title>
+  <style>
+  svg{--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.55;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)}@media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.85;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)}}
+  text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+  .gs1{stop-color:var(--bg1)}.gs2{stop-color:var(--bg2)}
+  .pill{fill:var(--chip);stroke:var(--chipBd)}
+  .lab{font-size:15.5px;font-weight:650;fill:var(--ink)}
+  .ic{color:var(--accent)}
+  .glowStop{stop-color:var(--glow)}
+  .sweep{animation:sweep 7.5s cubic-bezier(.4,0,.2,1) infinite;animation-delay:var(--d,0s)}
+  @keyframes sweep{0%{transform:translateX(-120px);opacity:0}10%{opacity:1}42%{transform:translateX(200px);opacity:1}50%{opacity:0}100%{transform:translateX(200px);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.sweep,.b1,.b2,.b3,.b4,.wave,.dot{animation:none}.sweep{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glowG"><stop class="glowStop" offset="0" stop-opacity="0"/><stop class="glowStop" offset=".5" stop-opacity=".5"/><stop class="glowStop" offset="1" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="198" height="52" rx="14"/></clipPath>
+  </defs>
+  <rect class="pill" x="1" y="1" width="198" height="52" rx="14"/>
+  <rect x="1" y="1" width="198" height="52" rx="14" fill="url(#gloss)" clip-path="url(#clip)"/>
+  <g clip-path="url(#clip)"><rect class="sweep" x="0" y="0" width="120" height="54" fill="url(#glowG)" style="--d:0.9s"/></g>
+  <g class="ic" transform="translate(18, 16) scale(0.92)"><g stroke="currentColor" stroke-width="1.7" fill="none"><circle cx="12" cy="12" r="9.4"/><ellipse cx="12" cy="12" rx="4" ry="9.4"/><path d="M2.7 12h18.6M4.2 7h15.6M4.2 17h15.6"/></g></g>
+  <text class="lab" x="50" y="32">Website</text>
+</svg>

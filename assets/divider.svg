@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="18" viewBox="0 0 880 18" role="img" aria-label="— Abschnittstrenner —">
+  <title>— Abschnittstrenner —</title>
+  <style>
+  svg{--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.55;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)}@media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.85;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)}}
+  text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+  .lineStop0{stop-color:var(--accent);stop-opacity:0}.lineStop1{stop-color:var(--accent);stop-opacity:.55}
+  .dotStop{stop-color:var(--glow)}
+  .dot{animation:slide 6.5s cubic-bezier(.45,0,.2,1) infinite}
+  @keyframes slide{0%{transform:translateX(40px);opacity:0}12%{opacity:1}50%{transform:translateX(760px);opacity:1}62%{opacity:0}100%{transform:translateX(760px);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.sweep,.b1,.b2,.b3,.b4,.wave,.dot{animation:none}.sweep{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="ln" x1="0" x2="880" gradientUnits="userSpaceOnUse"><stop class="lineStop0" offset="0"/><stop class="lineStop1" offset=".5"/><stop class="lineStop0" offset="1"/></linearGradient>
+    <radialGradient id="dt"><stop class="dotStop" offset="0" stop-opacity=".95"/><stop class="dotStop" offset="1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="8.5" width="880" height="1.5" rx="1" fill="url(#ln)"/>
+  <g class="dot"><ellipse cx="40" cy="9" rx="46" ry="7" fill="url(#dt)"/><circle cx="40" cy="9" r="2.4" fill="var(--glow)"/></g>
+</svg>

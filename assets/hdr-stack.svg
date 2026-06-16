@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="52" viewBox="0 0 300 52" role="img" aria-label="Tech-Stack">
+  <title>Tech-Stack</title>
+  <style>
+  svg{--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.55;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)}@media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.85;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)}}
+  text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+  .ttl{font-size:27px;font-weight:800;letter-spacing:-.4px;fill:var(--ink)}
+  .uStop0{stop-color:var(--accent);stop-opacity:.9}.uStop1{stop-color:var(--accent);stop-opacity:0}
+  .gStop{stop-color:var(--glow)}
+  .mark{fill:var(--accent)}
+  .dot{animation:run 5.5s cubic-bezier(.4,0,.2,1) infinite}
+  @keyframes run{0%{transform:translateX(0);opacity:0}14%{opacity:1}55%{transform:translateX(160px);opacity:1}66%{opacity:0}100%{transform:translateX(160px);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.sweep,.b1,.b2,.b3,.b4,.wave,.dot{animation:none}.sweep{opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="ul" x1="0" x2="190" gradientUnits="userSpaceOnUse"><stop class="uStop0" offset="0"/><stop class="uStop1" offset="1"/></linearGradient>
+    <radialGradient id="g2"><stop class="gStop" offset="0" stop-opacity="1"/><stop class="gStop" offset="1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path class="mark" d="M12 14 l7 12 l-7 12 l-3 -2 l5 -10 l-5 -10 z" opacity=".9"/>
+  <text class="ttl" x="30" y="34">Tech-Stack</text>
+  <rect x="30" y="44" width="190" height="2" rx="1" fill="url(#ul)"/>
+  <g class="dot"><circle cx="34" cy="45" r="9" fill="url(#g2)"/><circle cx="34" cy="45" r="2.2" fill="var(--glow)"/></g>
+</svg>
