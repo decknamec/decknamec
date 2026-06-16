@@ -54,7 +54,7 @@ function hero() {
   @keyframes d1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(70px,-20px) scale(1.18)}}
   @keyframes d2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-60px,18px) scale(1.12)}}
   @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(48px,14px)}}`;
-  return open(W, H, 'Hey, ich bin Moritz — Software Developer @ Relationflow', css) + `
+  return open(W, H, 'Hey, ich bin Moritz. Software Developer @ Relationflow', css) + `
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0.7" y2="1"><stop class="gs1" offset="0"/><stop class="gs2" offset="0.55"/><stop class="gs1" offset="1"/></linearGradient>
     <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
@@ -75,7 +75,7 @@ function hero() {
   <text class="name" x="56" y="92" fill="var(--ink)">Hey, ich bin Moritz</text>
   <g clip-path="url(#clip)" mask="url(#glintM)"><text class="name" x="56" y="92" fill="var(--glow)">Hey, ich bin Moritz</text></g>
   <text class="wave" x="506" y="92" style="font-size:42px">👋</text>
-  <text class="sub" x="58" y="128" fill="var(--mut)">Software Developer @ <tspan class="acc">Relationflow</tspan><tspan fill="var(--mut)">  ·  24  ·  baut Web · Mobile · Desktop</tspan></text>
+  <text class="sub" x="58" y="128" fill="var(--mut)">Software Developer @ <tspan class="acc">Relationflow</tspan><tspan fill="var(--mut)">  ·  24</tspan></text>
   <g font-family="${FONT}">
     <rect x="58" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="80" y="167" text-anchor="middle">DE</text>
     <rect x="108" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="130" y="167" text-anchor="middle">EN</text>

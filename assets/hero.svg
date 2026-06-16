@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="200" viewBox="0 0 880 200" role="img" aria-label="Hey, ich bin Moritz — Software Developer @ Relationflow">
-  <title>Hey, ich bin Moritz — Software Developer @ Relationflow</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="200" viewBox="0 0 880 200" role="img" aria-label="Hey, ich bin Moritz. Software Developer @ Relationflow">
+  <title>Hey, ich bin Moritz. Software Developer @ Relationflow</title>
   <style>
   svg{--bg1:#eef1f7;--bg2:#dde4ef;--ink:#1f2630;--mut:#5b6473;--accent:#2f5fe6;--stroke:rgba(20,26,48,.12);--frost:rgba(255,255,255,.60);--glow:#3f74ff;--auroraO:.55;--chip:#ffffff;--chipBd:rgba(20,26,48,.14)}@media (prefers-color-scheme:dark){svg{--bg1:#080b16;--bg2:#10162c;--ink:#f3f6fc;--mut:#aab3c5;--accent:#5ce1ff;--stroke:rgba(255,255,255,.12);--frost:rgba(8,11,22,.42);--glow:#7fe9ff;--auroraO:.85;--chip:rgba(255,255,255,.06);--chipBd:rgba(255,255,255,.16)}}
   text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
@@ -48,7 +48,7 @@
   <text class="name" x="56" y="92" fill="var(--ink)">Hey, ich bin Moritz</text>
   <g clip-path="url(#clip)" mask="url(#glintM)"><text class="name" x="56" y="92" fill="var(--glow)">Hey, ich bin Moritz</text></g>
   <text class="wave" x="506" y="92" style="font-size:42px">👋</text>
-  <text class="sub" x="58" y="128" fill="var(--mut)">Software Developer @ <tspan class="acc">Relationflow</tspan><tspan fill="var(--mut)">  ·  24  ·  baut Web · Mobile · Desktop</tspan></text>
+  <text class="sub" x="58" y="128" fill="var(--mut)">Software Developer @ <tspan class="acc">Relationflow</tspan><tspan fill="var(--mut)">  ·  24</tspan></text>
   <g font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
     <rect x="58" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="80" y="167" text-anchor="middle">DE</text>
     <rect x="108" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="130" y="167" text-anchor="middle">EN</text>
