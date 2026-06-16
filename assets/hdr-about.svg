@@ -9,9 +9,7 @@
   .mark{fill:var(--accent)}
   @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <defs>
-    <linearGradient id="ul" x1="0" x2="168" gradientUnits="userSpaceOnUse"><stop class="u0" offset="0"/><stop class="u1" offset="1"/></linearGradient>
-  </defs>
+  <defs><linearGradient id="ul" x1="0" x2="168" gradientUnits="userSpaceOnUse"><stop class="u0" offset="0"/><stop class="u1" offset="1"/></linearGradient></defs>
   <path class="mark" d="M11 14 l7 12 l-7 12 l-3.4 -2 l5.2 -10 l-5.2 -10 z"/>
   <text class="ttl" x="30" y="34">Über mich</text>
   <rect x="30" y="44" width="168" height="2.4" rx="1.2" fill="url(#ul)"/>

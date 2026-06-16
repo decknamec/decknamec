@@ -45,13 +45,10 @@
   </g></g>
   <rect class="frost" x="0.5" y="0.5" width="879" height="199" rx="24" clip-path="url(#clip)"/>
   <rect x="0.5" y="0.5" width="879" height="199" rx="24" fill="url(#gloss)" clip-path="url(#clip)"/>
-
   <text class="name" x="56" y="92" fill="var(--ink)">Hey, ich bin Moritz</text>
   <g clip-path="url(#clip)" mask="url(#glintM)"><text class="name" x="56" y="92" fill="var(--glow)">Hey, ich bin Moritz</text></g>
   <text class="wave" x="506" y="92" style="font-size:42px">👋</text>
-
   <text class="sub" x="58" y="128" fill="var(--mut)">Software Developer @ <tspan class="acc">Relationflow</tspan><tspan fill="var(--mut)">  ·  24  ·  baut Web · Mobile · Desktop</tspan></text>
-
   <g font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
     <rect x="58" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="80" y="167" text-anchor="middle">DE</text>
     <rect x="108" y="150" width="44" height="26" rx="13" fill="var(--chip)" stroke="var(--chipBd)"/><text class="plab" x="130" y="167" text-anchor="middle">EN</text>

@@ -33,6 +33,8 @@ Mehr über mich, meine Projekte und meine Arbeitsweise auf meiner Website **[mor
 
 <img src="assets/hdr-contact.svg?v=3" alt="Kontakt">
 
-[![LinkedIn](assets/chip-linkedin.svg?v=3)](https://de.linkedin.com/in/moritz-diesing-7a683a325) [![GitHub](assets/chip-github.svg?v=3)](https://github.com/decknamec) [![XING](assets/chip-xing.svg?v=3)](https://www.xing.com/profile/Moritz_Diesing084189/web_profiles?nwt_nav=profile_icon) [![Website](assets/chip-web.svg?v=3)](https://moritzdiesing.de)
+[![LinkedIn](assets/chip-linkedin.svg?v=3)](https://de.linkedin.com/in/moritz-diesing-7a683a325) [![GitHub](assets/chip-github.svg?v=3)](https://github.com/decknamec)
+
+[![XING](assets/chip-xing.svg?v=3)](https://www.xing.com/profile/Moritz_Diesing084189/web_profiles?nwt_nav=profile_icon) [![Website](assets/chip-web.svg?v=3)](https://moritzdiesing.de)
 
 > Sprachen: Deutsch 🇩🇪 · Englisch 🇬🇧 · Norwegisch 🇳🇴 — immer offen für spannende Projekte.
