@@ -6,7 +6,7 @@ I build web, mobile and desktop apps with a focus on DX, performance and clear U
 
 <img src="assets/divider.svg?v=3" width="880" alt="">
 
-<img src="assets/hdr-stack.svg?v=3" alt="Tech stack">
+<img src="assets/hdr-stack.svg?v=4" alt="Tech stack">
 
 <p align="center">
   <img src="assets/tech-stack.svg?v=4" width="880" alt="Tech-Stack: TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query, React Native / Expo, Tauri, Rust, Supabase, PostgreSQL, Node.js, Stripe, AWS, Claude (Anthropic), Ollama, Deepgram, Vitest, Playwright, Git, GitHub Actions, Jira">
