@@ -2,7 +2,7 @@
   <img src="assets/hero.svg?v=6" width="880" alt="Hey, I'm Moritz. Software Developer @ Relationflow. German, English, Norwegian.">
 </p>
 
-I build web, mobile and desktop apps with a focus on DX, performance and clear UI/UX. I work mostly in modern **TypeScript** stacks (React, Next.js, React Native, Tauri) on **Supabase** as the backend, and I integrate **LLMs** (Claude, Ollama) directly into the product. Development is AI-assisted with Claude Code.
+I build web, mobile and desktop apps with a focus on DX, performance and clear UI/UX. I work mostly in modern **TypeScript** stacks (React, Next.js, React Native, Tauri) and I integrate **LLMs** directly into the product.
 
 <img src="assets/divider.svg?v=3" width="880" alt="">
 
@@ -18,8 +18,7 @@ I build web, mobile and desktop apps with a focus on DX, performance and clear U
 - **Frontend:** TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query
 - **Mobile & Desktop:** React Native (Expo), Tauri, Rust
 - **Backend & Data:** Supabase, PostgreSQL, Node.js, Stripe, AWS
-- **AI / LLM:** Claude (Anthropic API), Ollama, Deepgram
-- **Testing & Workflow:** Vitest, Playwright, Git, GitHub Actions, Jira
+- **Testing & Workflow:** Vitest, Playwright, Git, GitHub Actions
 
 </details>
 
