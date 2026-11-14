@@ -1,37 +1,29 @@
 <p align="center">
-  <img src="assets/hero.svg?v=6" width="880" alt="Hey, I'm Moritz. Software Developer @ Relationflow. German, English, Norwegian.">
+  <img src="assets/hero.svg" width="880" alt="Hi, I'm Moritz. Software developer at RelationFlow, based in Germany.">
 </p>
 
-I build web, mobile and desktop apps with a focus on DX, performance and clear UI/UX. I work mostly in modern **TypeScript** stacks (React, Next.js, React Native, Tauri) and I integrate **LLMs** directly into the product.
+I build web, mobile and desktop applications, with a focus on **AI integrations, developer tooling and clear UI/UX**.
+My work spans TypeScript applications, API and OAuth integrations, and MCP servers that connect AI tools to business software.
 
-<img src="assets/divider.svg?v=3" width="880" alt="">
+[Website](https://moritzdiesing.de) · [LinkedIn](https://www.linkedin.com/in/moritz-diesing/)
 
-<img src="assets/hdr-stack.svg?v=4" alt="Tech stack">
+### Open-source contributions
 
-<p align="center">
-  <img src="assets/tech-stack.svg?v=4" width="880" alt="Tech-Stack: TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query, React Native / Expo, Tauri, Rust, Supabase, PostgreSQL, Node.js, Stripe, AWS, Claude (Anthropic), Ollama, Deepgram, Vitest, Playwright, Git, GitHub Actions, Jira">
-</p>
+I contribute fixes to tools I use, backed by reproductions and focused changes.
+A few merged contributions:
 
-<details>
-<summary>Tech stack as a list</summary>
+- **[Composio](https://github.com/ComposioHQ/composio/pull/4411)** - preserve authentication-field metadata in toolkit auth details.
+- **[PostHog](https://github.com/PostHog/posthog-js/pull/4885)** - declare the evaluation runtime in server-side feature-flag requests.
+- **[Lucide](https://github.com/lucide-icons/lucide/pull/4836)** - correct icon search tags, including [shield icon metadata](https://github.com/lucide-icons/lucide/pull/4835).
 
-- **Frontend:** TypeScript, React, Next.js, Vue, Tailwind CSS, Radix UI, TanStack Query
-- **Mobile & Desktop:** React Native (Expo), Tauri, Rust
-- **Backend & Data:** Supabase, PostgreSQL, Node.js, Stripe, AWS
-- **Testing & Workflow:** Vitest, Playwright, Git, GitHub Actions
+### Project spotlight
 
-</details>
+**[claude-voice](https://github.com/decknamec/claude-voice)** - a voice interface for Claude Code on macOS, with local speech recognition through whisper.cpp, a React interface and a Tauri desktop shell.
 
-<img src="assets/divider.svg?v=3" width="880" alt="">
+### Tools I work with
 
-<img src="assets/hdr-about.svg?v=4" alt="About me">
+- **Web & mobile:** TypeScript, React, Next.js, React Native / Expo, Tailwind CSS
+- **Desktop & backend:** Tauri, Rust, Node.js, PostgreSQL, Supabase
+- **Integrations & quality:** MCP, OAuth, Composio, Vitest, Playwright, GitHub Actions
 
-More about me, my projects and how I work on my website **[moritzdiesing.de](https://moritzdiesing.de)**.
-
-<img src="assets/divider.svg?v=3" width="880" alt="">
-
-<img src="assets/hdr-contact.svg?v=4" alt="Contact">
-
-[![LinkedIn](assets/chip-linkedin.svg?v=3)](https://de.linkedin.com/in/moritz-diesing-7a683a325) [![GitHub](assets/chip-github.svg?v=3)](https://github.com/decknamec)
-
-[![XING](assets/chip-xing.svg?v=3)](https://www.xing.com/profile/Moritz_Diesing084189/web_profiles?nwt_nav=profile_icon) [![Website](assets/chip-web.svg?v=3)](https://moritzdiesing.de)
+I'm interested in API integrations, SDK reliability and tools that make developers' work easier.
