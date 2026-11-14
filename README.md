@@ -7,14 +7,7 @@ My work spans TypeScript applications, API and OAuth integrations, and MCP serve
 
 [Website](https://moritzdiesing.de) · [LinkedIn](https://www.linkedin.com/in/moritz-diesing/)
 
-### Open-source contributions
-
-I contribute fixes to tools I use, backed by reproductions and focused changes.
-A few merged contributions:
-
-- **[Composio](https://github.com/ComposioHQ/composio/pull/4411)** - preserve authentication-field metadata in toolkit auth details.
-- **[PostHog](https://github.com/PostHog/posthog-js/pull/4885)** - declare the evaluation runtime in server-side feature-flag requests.
-- **[Lucide](https://github.com/lucide-icons/lucide/pull/4836)** - correct icon search tags, including [shield icon metadata](https://github.com/lucide-icons/lucide/pull/4835).
+When I find bugs in the open-source tools I use, I enjoy fixing them and contributing the fixes back.
 
 ### Project spotlight
 
